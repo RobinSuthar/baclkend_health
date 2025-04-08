@@ -12,7 +12,7 @@ app.get("/", async (req, res) => {
   try {
     // Placeholder for extracting information from the front-end
     const response = await axios.get("//Link provided into the channel");
-    res.json({ message: response.data });
+    res.json({ message: "Yo! What's up ? This is our back end" });
   } catch (error) {
     res
       .status(500)
