@@ -22,7 +22,7 @@ app.post("/api/v1/information", async (req, res) => {
       url: "https://ai-medical-diagnosis-api-symptoms-to-results.p.rapidapi.com/analyzeSymptomsAndDiagnose",
       params: { noqueue: "1" },
       headers: {
-        "x-rapidapi-key": "7813a901f1mshcb7ba8be1062120p1a7fb1jsn3768657a9989",
+        "x-rapidapi-key": "4da7c7ee36msh1e89b03d8771a2fp11fbc3jsnd5fedcf4d566",
         "x-rapidapi-host":
           "ai-medical-diagnosis-api-symptoms-to-results.p.rapidapi.com",
         "Content-Type": "application/json",
